@@ -6,7 +6,8 @@ namespace ConsoleApp2
     {
         static void Main(string[] args)
         {
-            int c;
+            string c = Console.ReadLine();
+            Console.WriteLine("輸入："+c);
             Console.WriteLine("Hello World!");
         }
     }
