@@ -6,8 +6,8 @@ namespace ConsoleApp2
     {
         static void Main(string[] args)
         {
-            string c = Console.ReadLine();
-            Console.WriteLine("輸入："+c);
+            //string c = Console.ReadLine();
+           // Console.WriteLine("輸入："+c);
             double meal_cost = 100;
             int tip_percent = 15;
             int tax_percent = 8;
