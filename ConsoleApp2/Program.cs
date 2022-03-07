@@ -8,7 +8,12 @@ namespace ConsoleApp2
         {
             string c = Console.ReadLine();
             Console.WriteLine("輸入："+c);
-            Console.WriteLine("Hello World!");
+            double meal_cost = 100;
+            int tip_percent = 15;
+            int tax_percent = 8;
+            var cost = (meal_cost + tip_percent + tax_percent);
+            Console.WriteLine("用餐總費用：" +cost);
+
         }
     }
 }
